@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 6.25%;
+}
+body{
+  background: #ECE9FD;
+  font-family: 'Epilogue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body-box{
+  width: 330rem;
+  margin: 60rem auto 66rem;
+}
+.header-div span{
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 32rem;
+  letter-spacing: 3rem;
+  text-transform: uppercase;
+  color: #7158EF;
+}
+h1{
+  font-weight: 800;
+  font-size: 40rem;
+  line-height: 48rem;
+  color: #090039;
+  margin: 16rem 0;
+}
+p{
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 32rem;
+  color: rgba(10, 0, 57, 0.64);
+}
+a{
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 32rem;
+  color: #090039;
+  text-decoration: none;
+  display: inline-block;
+  margin: 32rem 0 72rem;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32rem;
+}
+.ul-element{
+  font-weight: 700;
+  font-size: 24rem;
+  line-height: 32rem;
+  color: #090039;
+  display: flex;
+  align-items: center;
+  gap: 38rem;
+}
+li span{
+  font-weight: 800;
+  font-size: 72rem;
+  line-height: 80rem;
+  letter-spacing: -2rem;
+  color: #090039;
+}
+
+@media (min-width: 700px){
+  body{
+    padding: 80rem;
+  }
+  .body-box{ 
+    max-width: 1020rem;
+    display: flex;
+    width: auto;
+    gap: 100rem;
+    margin: 0 auto;
+  }
+  header{
+    max-width: 484rem;
+  }
+  main{
+    margin-top: 72rem;
+  }
+  ul li{
+    max-width: 450rem;
+  }
+  .ul-element{
+    gap: 53rem;
+  }
+}
